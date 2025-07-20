@@ -31,7 +31,7 @@ function SchemaBuilder() {
             ))}
             <Button
               onClick={() =>
-                append({ id: uuidv4(), name: "", type: "string", required: false })
+                append({ id: uuidv4(), name: "", type: "string"})
               }
               className="mt-4 bg-blue-600 text-white"
             >
