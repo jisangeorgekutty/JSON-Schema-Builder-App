@@ -1,16 +1,13 @@
+import SchemaBuilder from "./components/schema-builder/SchemaBuilder"
 import { Button } from "./components/ui/button"
 
 
 function App() {
-
-
   return (
-    <>
-      <h1 className="text-amber-500">Hello </h1>
-      <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
+    <div className="min-h-screen bg-white">
+      <SchemaBuilder />
+      <Button className="ml-10 bg-gray-200 text-black">Submit</Button>
     </div>
-    </>
   )
 }
 
