@@ -15,11 +15,40 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ---
 
+## 📂 Project Structure
+```bash
+JSON-Schema-Builder-App/
+├── frontend/
+│   ├── public/
+│   │   └── screenshot.png
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── schema-builder/
+│   │   │   │   ├── FieldRow.tsx
+│   │   │   │   └── SchemaBuilder.tsx
+│   │   │   └── ui/               # ShadCN UI components (Button, Input, etc.)
+│   │   ├── types/
+│   │   │   └── schema.ts
+│   │   ├── utils/
+│   │   │   └── generateSchema.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── index.css
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── README.md
+└── .gitignore
+```
+
+---
+
+
 ## 📸 Demo Screenshot
 
 ![Schema Builder Demo](./frontend/public/screenshot.png)
 
 ---
+
 
 ## 🧪 Tech Stack
 
@@ -58,5 +87,4 @@ yarn dev
 ## 🚀 Live Demo
 
 Check out the deployed version here: [View Live](https://json-schema-builder-app-henna.vercel.app/)
-
 
