@@ -4,6 +4,12 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ---
 
+## 🚀 Live Demo
+
+Check out the deployed version here: [View Live](https://json-schema-builder-app-henna.vercel.app/)
+
+---
+
 ## ✨ Features
 
 - 🧱 Add, edit, and remove schema fields
@@ -84,7 +90,5 @@ yarn dev
 
 ---
 
-## 🚀 Live Demo
 
-Check out the deployed version here: [View Live](https://json-schema-builder-app-henna.vercel.app/)
 
