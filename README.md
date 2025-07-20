@@ -17,7 +17,7 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ## 📸 Demo Screenshot
 
-![Schema Builder Demo](./screenshot.png)
+![Schema Builder Demo](./public/screenshot.png)
 
 ---
 
