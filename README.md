@@ -9,7 +9,6 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 - 🧱 Add, edit, and remove schema fields
 - 🔁 Support for nested (recursive) schema structures
 - ⚙️ Field types: `string`, `number`, `nested`
-- ✅ Field options: required toggle, field key input
 - 📦 Live JSON preview output
 - 🪝 Built using `react-hook-form` for efficient form handling
 - 💅 Styled with `Tailwind CSS` and `shadcn/ui` components
@@ -18,7 +17,7 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ## 📸 Demo Screenshot
 
-![Schema Builder Demo](./public/screenshot.png)
+![Schema Builder Demo](./frontend/public/screenshot.png)
 
 ---
 
@@ -38,8 +37,8 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/jisangeorgekutty/HROne-Frontend-Task.git
-cd json-schema-builder
+git clone https://github.com/jisangeorgekutty/JSON-Schema-Builder-App.git
+cd JSON-Schema-Builder-App
 ```
 ### 2. Install dependencies
 ```bash
