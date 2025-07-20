@@ -9,7 +9,6 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 - 🧱 Add, edit, and remove schema fields
 - 🔁 Support for nested (recursive) schema structures
 - ⚙️ Field types: `string`, `number`, `nested`
-- ✅ Field options: required toggle, field key input
 - 📦 Live JSON preview output
 - 🪝 Built using `react-hook-form` for efficient form handling
 - 💅 Styled with `Tailwind CSS` and `shadcn/ui` components
@@ -18,7 +17,7 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ## 📸 Demo Screenshot
 
-![Schema Builder Demo](./public/screenshot.png)
+![Schema Builder Demo](./screenshot.png)
 
 ---
 
