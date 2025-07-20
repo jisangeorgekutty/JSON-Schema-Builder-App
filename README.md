@@ -37,8 +37,8 @@ A dynamic and extensible form builder built with **React**, **TypeScript**, **Re
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/jisangeorgekutty/HROne-Frontend-Task.git
-cd json-schema-builder
+git clone https://github.com/jisangeorgekutty/JSON-Schema-Builder-App.git
+cd JSON-Schema-Builder-App
 ```
 ### 2. Install dependencies
 ```bash
