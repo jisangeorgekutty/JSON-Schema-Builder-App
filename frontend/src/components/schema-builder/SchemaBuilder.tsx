@@ -1,13 +1,16 @@
+import { useEffect } from "react";
 import { useForm, FormProvider, useFieldArray } from "react-hook-form";
 import { v4 as uuidv4 } from "uuid";
-import FieldRow from "./FieldRow";
+import FieldRow from "./FieldRow"
 import { buildSchema } from "../../utils/generateSchema";
 import { Button } from "../../components/ui/button";
 import type { SchemaField } from "../../types/schema";
 
+
 interface SchemaFormValues {
   fields: SchemaField[];
 }
+
 
 function SchemaBuilder() {
   const methods = useForm<SchemaFormValues>({ defaultValues: { fields: [] } });
@@ -39,7 +42,7 @@ function SchemaBuilder() {
               + Add Item
             </Button>
              {/* TODO: Add form validation before allowing field submission */}
-             
+
           </div>
           <div className="w-1/2 bg-gray-100 p-4 rounded">
             <pre>{JSON.stringify(buildSchema(liveData.fields || []), null, 2)}</pre>

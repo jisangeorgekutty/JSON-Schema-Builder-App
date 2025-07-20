@@ -3,7 +3,7 @@ import type { SchemaField } from "../types/schema";
 export function buildSchema(fields: SchemaField[]): any {
   const obj: Record<string, any> = {};
 
-  // TODO: Add validation for duplicate or empty field names before building schema
+  // only include fields with a name
   fields.forEach((field) => {
     if (field.name === '') return;
     if (field.type === 'nested') {
