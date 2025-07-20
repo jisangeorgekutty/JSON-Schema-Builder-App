@@ -24,7 +24,10 @@ interface Props {
 
 function FieldRow({ nestIndex, index, onRemove }: Props) {
     const { register, control } = useFormContext();
+
+    // Don't store in form just toggle for visual seeing
     const [fakeChecked, setFakeChecked] = useState(false);
+
     const namePath = `${nestIndex}[${index}]`;
 
     const { fields: childrenFields, append, remove } = useFieldArray({

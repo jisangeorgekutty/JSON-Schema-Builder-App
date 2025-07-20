@@ -15,6 +15,7 @@ function SchemaBuilder() {
   const { fields, append, remove } = useFieldArray({ control, name: "fields" });
 
   const liveData = watch();
+  console.log("Live Schema:", liveData.fields); 
 
   return (
     <FormProvider {...methods}>
@@ -37,6 +38,8 @@ function SchemaBuilder() {
             >
               + Add Item
             </Button>
+             {/* TODO: Add form validation before allowing field submission */}
+             
           </div>
           <div className="w-1/2 bg-gray-100 p-4 rounded">
             <pre>{JSON.stringify(buildSchema(liveData.fields || []), null, 2)}</pre>
