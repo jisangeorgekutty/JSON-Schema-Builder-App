@@ -93,5 +93,17 @@ yarn dev
 
 ---
 
+## 🔧 How It Works
+
+- Fields are managed using useFieldArray from react-hook-form
+
+- Nested fields are recursively rendered using the same FieldRow component
+
+- The JSON schema is computed in real-time using buildSchema()
+
+- State is synced with useWatch() to detect field type changes
+
+- Field deletions, additions, and type changes are fully reactive
+
 
 
