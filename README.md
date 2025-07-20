@@ -53,3 +53,10 @@ npm run dev
 yarn dev
 ```
 
+---
+
+## 🚀 Live Demo
+
+Check out the deployed version here: [View Live](https://json-schema-builder-app-henna.vercel.app/)
+
+
