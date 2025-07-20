@@ -95,15 +95,38 @@ yarn dev
 
 ## 🔧 How It Works
 
-- Fields are managed using useFieldArray from react-hook-form
+- Fields are managed using *useFieldArray* from *react-hook-form*
 
-- Nested fields are recursively rendered using the same FieldRow component
+- Nested fields are recursively rendered using the same *FieldRow* component
 
-- The JSON schema is computed in real-time using buildSchema()
+- The JSON schema is computed in real-time using *buildSchema()*
 
-- State is synced with useWatch() to detect field type changes
+- State is synced with *useWatch()* to detect field type changes
 
 - Field deletions, additions, and type changes are fully reactive
+
+## 🧩 Example JSON Output
+
+```json
+{
+  "user": {
+    "name": "string",
+    "age": "number",
+    "address": {
+      "city": "string",
+      "pincode": "number"
+    }
+  }
+}
+```
+
+## 👤 Author 
+
+**Jisan George**
+*Full Stack Developer*
+- **LinkedIn**: [linkedin.com/in/jisan-george](https://www.linkedin.com/in/jisan-george-a416a6223)
+
+
 
 
 
